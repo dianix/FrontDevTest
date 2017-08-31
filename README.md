@@ -19,6 +19,7 @@ Los aspectos que se evaluarán en la tarea son los siguientes.
 
 - tu nombre completo
 - alguna cita que te guste, puede ser de un libro, de algún personaje al que admires .
+- Cuando termines ennvía un correo a **adrian@4uno.org**
 
 **Yo les comparto la siguiente:**
 
