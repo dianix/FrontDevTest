@@ -28,18 +28,30 @@ Como **Elon Musk** dijo
 
 ## Instrucciones
 
-Desarollar una WebApp con Diseño Responsivo que muestre un mapa de google con las siguientes funcionalidades:
+**Nota**:  En la carpeta [`assets/documents/`](assets/documents/) encontrarás un documento en el cuál se encuentran los textos que deberán estar presentes en la maqueta terminada,
+se considerará como puntución extra que la sección donde aparece la imagen de la caja quedará como en la imagen [`assets/img/caja_extra.png`](assets/img/caja_extra.png)
 
-1. A Partir de la ubicación y mediante la API de Google Maps el mapa debe mostrar las Clínicas y Hospitales que hay en un radio de 10km.
+##Ejercicio
 
-2. Los marcadores en el mapa deberán ser personalizados y al dar clic sobre ellos mostraran las siguiente información 
+1. Clonar este repositorio.
 
-    - Nombre del hospital
-    - Distancia segun la ubicacion
-    - teléfono
-    - valoración
+1. **Maquetación:** Deberás traducir el diseño ubicado en [`assets/design_psd/`](assets/design_psd/) a HTML+CSS.
+En la carpeta [`assets/img/`](assets/img/) encontraras todas las imagenes necesarias para la maquetación las tipografías quedan a su elección.
+    * **Archivos PSD**
+        * home.psd
 
-3. Un formulario (ustedes deciden la estructura y los campos) para que el usuario introduzca su dirección y a partir de la dirección  mostrar los hospitales y clínicas en un radio de 10 km , los marcadores del mapa serán los mismos del punto 2
+        **NOTA**
+        El diseño y las imagenes no deben ajustarse 100% a [`assets/design_psd/`](assets/design_psd/), sientanse libres de realizar el diseño que mejor les parezca, recuerden que se tomará en cuenta la **CREATIVIDAD**
+   
+1. **Requerimientos:** Traducir diseño a HTML+CSS. Deberás usar técnicas CSS3 y HTML5 cuando lo requiera. Además debe realizar el sitio responsive. **Se recomienda fuertemente** realizar al menos la maquetación para desktop y mobile. Utilizar FontAwesome donde sea necesario.
+
+
+1. **SEO Friendly:** Comunidad 4uno busca siempre tener una buena posición en ránkings de búsqueda. Crear etiquetas necesarias para un buen **SEO** (hint: use las keywords: crédito,bienestar,seguridad).
+¿Crees que se requieran cambios en la maqueta? ¿Cuáles?
+**Opcional:** agregar share buttons y etiquetas para redes sociales (hint: [http://ogp.me](http://ogp.me)).
+
+1. **Advanced CSS:** Puede usar frameworks a elección para escribir CSS (hint: materialize, bootstrap)teniendo en cuenta la compatibilidad con distintos browsers (hint opcional: Usar [BrowserStack](http://www.browserstack.com/) para chequear el renderizado en distintos navegadores).
+Opcional: ¿cuál sería tu enfoque en la construcción del diseño?
 
 
 ## Se darán  puntos extras si utilizas
