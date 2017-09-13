@@ -1,0 +1,28 @@
+{
+  "name": "frontdevtest",
+  "version": "1.0.0",
+  "description": "prueba técnica 4uno",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianix/FrontDevTest.git"
+  },
+  "author": "Diana Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianix/FrontDevTest/issues"
+  },
+  "homepage": "https://github.com/dianix/FrontDevTest#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

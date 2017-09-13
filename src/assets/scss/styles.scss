@@ -1,0 +1,15 @@
+nav {
+    a.brand-logo {
+        img {
+            width: auto;
+            max-height: 6vh;
+        }
+    }
+}
+
+#inicio {
+    background-image: url(../img/libro.png);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+}
