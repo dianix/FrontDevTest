@@ -39,9 +39,10 @@ body {
     }
     #servicios {
         padding: 4rem 0;
-        background-image: url(../img/cajasimple.png);
+        background-color: #e7e6e6;
+        background-image: url(../img/cajasimple2.png);
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         h3 {
             @include titulo (0 0 4rem);
         }

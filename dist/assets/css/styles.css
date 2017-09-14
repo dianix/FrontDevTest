@@ -37,9 +37,10 @@ body #beneficios .col.s12.m4 .card .card-reveal {
 
 body #servicios {
   padding: 4rem 0;
-  background-image: url(../img/cajasimple.png);
+  background-color: #e7e6e6;
+  background-image: url(../img/cajasimple2.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 body #servicios h3 {
