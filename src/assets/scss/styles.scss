@@ -1,15 +1,52 @@
-nav {
-    a.brand-logo {
-        img {
-            width: auto;
-            max-height: 6vh;
-        }
-    }
+@mixin titulo ($mrg) {
+    font-family: 'Merriweather', serif;
+    margin: ($mrg);
 }
 
-#inicio {
-    background-image: url(../img/libro.png);
-    background-size: cover;
-    background-position: center;
-    padding: 3rem 0;
+//variables
+$padd: 4rem;
+//estilos
+body {
+    font-family: 'Raleway', sans-serif;
+    nav {
+        padding: 0 1rem;
+        a.brand-logo {
+            padding-top: 1vh;
+            img {
+                width: auto;
+                max-height: 6vh;
+            }
+        }
+    }
+    #inicio {
+        background-image: url(../img/libro.png);
+        background-size: cover;
+        background-position: center;
+        padding: $padd;
+    }
+    #beneficios {
+        h3 {
+            @include titulo (4rem 0);
+        }
+        .col.s12.m4 {
+            padding: $padd;
+            .card {
+                .card-reveal {
+                    padding-top: 2rem;
+                }
+            }
+        }
+    }
+    #servicios {
+        padding: 4rem 0;
+        background-image: url(../img/cajasimple.png);
+        background-size: cover;
+        background-position: center;
+        h3 {
+            @include titulo (0 0 4rem);
+        }
+        .col.s6.m3{
+            padding: $padd;
+        }
+    }
 }

@@ -2,20 +2,23 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4uno</title>
-    <link rel="stylesheet" href="static/materialize-css/dist/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+    <meta name="description" content="Somos una empresa social mexicana. Diseñamos y ofrecemos paquetes de beneficios para empleadas domésticas" />
+    <meta name="keywords" content="crédito,bienestar,seguridad" />
+    <title>Comunidad 4uno</title>
+    <link rel="shorcut icon" type="image/x-icon" href="assets/img/icono.png" />
+    <link rel="stylesheet" href="static/materialize-css/dist/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="navbar-fixed">
         <nav class="nav-extended white">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo"><img class="responsive-img" src="assets/img/logo.png" alt="4uno-logo"></a>
+                <a href="#" class="brand-logo valign-wrapper"><img class="responsive-img" src="assets/img/logo.png" alt="4uno-logo"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse purple-text"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a class="grey-text text-darken-3" href="#">Iniciar sesión</a></li>
@@ -45,14 +48,99 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid blue">
+    <main class="container-fluid">
+
         <section id="inicio" class="center-align white-text">
             <div class="row">
-                <div class="col s12 m8 offset-m2">
-                    <h3>Holaaaaaaa</h3>
+                <div class="col s12 m6 offset-m3">
+                    <h3>Facilitamos tu vida y la de tus empleados en un click.</h3>
+                    <h4>Somos una plataforma que brinda servicios para facilitar y proteger la relación con tu empleado del hogar.</h4>
                     <button type="button" class="t btn purple">únete</button>
                 </div>
             </div>
+        </section>
+
+        <section id="beneficios" class="center-align">
+            <div class="row">
+                <h3 class="purple-text">Beneficios</h3>
+                <img class="responsive-img" src="assets/img/imagen1.png" alt="Beneficios">
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/img/Comodidad-Plataforma.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Comodidad<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Comodidad<i class="material-icons right">close</i></span>
+                            <p>Podrás pagarle a tu empleado con un click, a través del Pago electrónico desde nuestra plataforma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/img/Cobertura-Accidentes.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Protección<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Protección<i class="material-icons right">close</i></span>
+                            <p>Te protegemos ante cualquier problema que tengas con tu empleado, ofreciéndoles:</p>
+                            <ul>
+                                <li>● Seguro de accidentes</li>
+                                <li>● Recibo de pago</li>
+                                <li>● Asesoría legal y laboral</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/img/Asistencia-Legal.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Bienestar<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Bienestar<i class="material-icons right">close</i></span>
+                            <p>Tienes la oportunidad de mejorar la vida de tu empleado con este paquete que incluye:</p>
+                            <ul>
+                                <li>● Seguro de vida</li>
+                                <li>● Asistencia médica</li>
+                                <li>● Fondo de ahorro</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="center-align ">
+            <div class="row">
+                <h3 class="purple-text">Servicios</h3>
+                <img class="responsive-img" src="assets/img/imagen2.png" alt="Servicios">
+            </div>
+            <div class="row">
+                <div class="col s6 m2 offset-m2">
+                    <a href="#modal"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                </div>
+                <div class="col s6 m2">
+                    <a href="#"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                </div>
+                <div class="col s6 m2">
+                    <a href="#"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                </div>
+                <div class="col s6 m2">
+                    <a href="#"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                </div>
+            </div>
+
         </section>
     </main>
     <script src="static/jquery/dist/jquery.min.js"></script>

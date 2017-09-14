@@ -1,11 +1,52 @@
-nav a.brand-logo img {
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+body nav {
+  padding: 0 1rem;
+}
+
+body nav a.brand-logo {
+  padding-top: 1vh;
+}
+
+body nav a.brand-logo img {
   width: auto;
   max-height: 6vh;
 }
 
-#inicio {
+body #inicio {
   background-image: url(../img/libro.png);
   background-size: cover;
   background-position: center;
-  padding: 3rem 0;
+  padding: 4rem;
+}
+
+body #beneficios h3 {
+  font-family: 'Merriweather', serif;
+  margin: 4rem 0;
+}
+
+body #beneficios .col.s12.m4 {
+  padding: 4rem;
+}
+
+body #beneficios .col.s12.m4 .card .card-reveal {
+  padding-top: 2rem;
+}
+
+body #servicios {
+  padding: 4rem 0;
+  background-image: url(../img/cajasimple.png);
+  background-size: cover;
+  background-position: center;
+}
+
+body #servicios h3 {
+  font-family: 'Merriweather', serif;
+  margin: 0 0 4rem;
+}
+
+body #servicios .col.s6.m3 {
+  padding: 4rem;
 }
