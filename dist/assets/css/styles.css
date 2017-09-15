@@ -6,13 +6,9 @@ body nav {
   padding: 0 1rem;
 }
 
-body nav a.brand-logo {
-  padding-top: 1vh;
-}
-
 body nav a.brand-logo img {
   width: auto;
-  max-height: 6vh;
+  max-height: 5vh;
 }
 
 body #inicio {
@@ -29,14 +25,6 @@ body #beneficios {
 body #beneficios h3 {
   font-family: 'Merriweather', serif;
   margin: 4rem 0;
-}
-
-body #beneficios .col.s12.m4 {
-  padding: 4rem;
-}
-
-body #beneficios .col.s12.m4 .card .card-reveal {
-  padding-top: 2rem;
 }
 
 body #servicios {
@@ -91,5 +79,5 @@ body footer a.btn-floating.grey {
 }
 
 body .modal {
-  padding: 4rem;
+  padding: 2rem;
 }
