@@ -89,3 +89,7 @@ body footer a.whatsapp {
 body footer a.btn-floating.grey {
   margin-top: 2rem;
 }
+
+body .modal {
+  padding: 4rem;
+}

@@ -73,8 +73,11 @@ body {
             font-size: 2rem;
             font-family: sans-serif;
         }
-        a.btn-floating.grey{
+        a.btn-floating.grey {
             margin-top: 2rem;
         }
+    }
+    .modal {
+        padding: $padd;
     }
 }
