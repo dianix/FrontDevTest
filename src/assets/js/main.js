@@ -4,9 +4,8 @@ $(document).ready(function () {
     $('.button-collapse').sideNav({
         menuWidth: 250, // ancho de sidebar
         edge: 'left', // sidebar aparece del lado izquierdo
-        closeOnClick: true, 
+        closeOnClick: true,
         draggable: true,
     });
-    
-
+    $('.modal').modal(); //para activar modales
 });
