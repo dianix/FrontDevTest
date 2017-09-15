@@ -71,3 +71,7 @@ body #pago {
 body #pago blockquote {
   border-left: 5px solid #ffb300;
 }
+
+body footer {
+  padding: 4rem 0;
+}
