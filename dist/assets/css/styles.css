@@ -63,3 +63,11 @@ body #servicios .row .col.s6.m3 {
 body #servicios .row h4 {
   margin: 3rem 0 0;
 }
+
+body #pago {
+  padding: 4rem;
+}
+
+body #pago blockquote {
+  border-left: 5px solid #ffb300;
+}

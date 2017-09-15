@@ -11,45 +11,47 @@
     <link rel="stylesheet" href="static/materialize-css/dist/css/materialize.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="https://use.fontawesome.com/e7261129df.js"></script>
 </head>
 
 <body>
-    <header class="navbar-fixed">
-        <nav class="nav-extended white">
-            <div class="nav-wrapper">
-                <a href="#inicio" class="brand-logo valign-wrapper"><img class="responsive-img" src="assets/img/logo.png" alt="4uno-logo"></a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse purple-text"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="grey-text text-darken-3" href="#inicio">Inicio</a></li>
-                    <li><a class="grey-text text-darken-3" href="#beneficios">Beneficios del producto</a></li>
-                    <li><a class="grey-text text-darken-3" href="#servicios">Servicios</a></li>
-                    <li><a class="grey-text text-darken-3" href="#testimonios">Testimonios</a></li>
-                    <li><a class="grey-text text-darken-3">Iniciar sesión</a></li>
-                    <li><a class="waves-effect waves-light btn purple" href="views/section.html" ;>adquirir</a></li>
-                </ul>
-
-                <!-- sidenav -->
-                <ul class="side-nav" id="mobile-demo">
-                    <li>
-                        <div class="user-view">
-                            <div class="background">
-                                <img class="" src="assets/img/4585490.jpg">
-                            </div>
-                            <a href="#"><img src="assets/img/logo.png"></a>
-                            <a href="#"><span class="white-text name">4uno</span></a>
-                            <a href="#"><span class="white-text email">Contenido</span></a>
-                        </div>
-                    </li>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Iniciar sesión</a></li>
-                    <li><a href="#">Descripción del producto</a></li>
-                    <li><a class="waves-effect waves-light btn purple" href="#">adquirir</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="nav-extended white">
+                <div class="nav-wrapper">
+                    <a href="#inicio" class="brand-logo valign-wrapper"><img class="responsive-img" src="assets/img/logo.png" alt="4uno-logo"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse purple-text"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="grey-text text-darken-3" href="#inicio">Inicio</a></li>
+                        <li><a class="grey-text text-darken-3" href="#beneficios">Beneficios del producto</a></li>
+                        <li><a class="grey-text text-darken-3" href="#servicios">Servicios</a></li>
+                        <li><a class="grey-text text-darken-3" href="#pago">Métodos de pago</a></li>
+                        <li><a class="grey-text text-darken-3">Iniciar sesión</a></li>
+                        <li><a class="waves-effect waves-light btn purple" href="views/section.html">adquirir</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- sidenav -->
+        <ul class="side-nav" id="mobile-demo">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img class="" src="assets/img/4585490.jpg">
+                    </div>
+                    <a href="#"><img src="assets/img/logo.png"></a>
+                    <a href="#"><span class="white-text name">4uno</span></a>
+                    <a href="#"><span class="white-text email">Contenido</span></a>
+                </div>
+            </li>
+            <li><a class="grey-text text-darken-3" href="#inicio">Inicio</a></li>
+            <li><a class="grey-text text-darken-3" href="#beneficios">Beneficios del producto</a></li>
+            <li><a class="grey-text text-darken-3" href="#servicios">Servicios</a></li>
+            <li><a class="grey-text text-darken-3" href="#pago">Métodos de pago</a></li>
+            <li><a class="grey-text text-darken-3">Iniciar sesión</a></li>
+            <li><a class="waves-effect waves-light btn purple" href="views/section.html">adquirir</a></li>
+        </ul>
     </header>
     <main class="container-fluid">
 
@@ -135,43 +137,32 @@
             </div>
             <div class="row">
                 <div class="col s6 m2 offset-m2">
-                    <a href="#modal"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
-                    <a href="#"><img class="responsive-img" src="assets/img/Asesor%C3%ADaLegal_03.png" alt="Asesoría legal"></a>
+                    <a href="#pago-e" class="modal-trigger"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                    <a href="#legal" class="modal-trigger"><img class="responsive-img" src="assets/img/Asesor%C3%ADaLegal_03.png" alt="Asesoría legal"></a>
                 </div>
                 <div class="col m4 hide-on-small-only">
                     <img class="responsive-img" src="assets/img/lineas.png" alt="flechas">
                 </div>
                 <div class="col s6 m2">
-                    <a href="#"><img class="responsive-img" src="assets/img/Ahorro_03.png" alt="Ahorro"></a>
-                    <a href="#"><img class="responsive-img" src="assets/img/Bienestar_03.png" alt="Bienestar"></a>
+                    <a href="#ahorro" class="modal-trigger"><img class="responsive-img" src="assets/img/Ahorro_03.png" alt="Ahorro"></a>
+                    <a href="#bienestar" class="modal-trigger"><img class="responsive-img" src="assets/img/Bienestar_03.png" alt="Bienestar"></a>
                 </div>
+                <!-- modales al final del body -->
             </div>
             <div class="row">
                 <div class="col s12 m6 offset-m3">
-                    <h4><b>Descarga más info con las condiciones y detalles generales del paquete <a target="_blank" class="amber-text" href="assets/docs/CVDianaVazquez2017.pdf">AQUí</a></b></h4>
+                    <h4><b>Descarga más info con las condiciones y detalles generales del paquete <a target="_blank" class="amber-text" href="assets/docs/CVDianaVazquez2017.pdf">AQUÍ</a></b></h4>
                 </div>
             </div>
         </section>
-        <section id="testimonios" class="">
+
+        <section id="pago" class="">
             <div class="row">
-                <div class="carousel carousel-slider center" data-indicators="true">
-                    <div class="carousel-fixed-item center">
-                        <a class="btn waves-effect white grey-text darken-text-2">button</a>
-                    </div>
-                    <div class="carousel-item red white-text" href="#one!">
-                        <p class="white-text"><i>“Adquirir esta membresía fue algo increíble. Hemos tenido la oportunidad de crear una relación más cercana y un ambiente de trabajo mucho más seguro para nuestra empleada doméstica. Ahora, tanto ella como nosotros nos sentimos protegidos ante cualquier imprevisto. ¡Gracias Comunidad 4uno!”</i></p>
-                        <h6>Paulina Rodríguez <br> Embajadora Social - Univ. Anáhuac Norte</h6>
-                    </div>
-                    <div class="carousel-item amber white-text" href="#two!">
-                        <p class="white-text"><i>“Adquirir esta membresía fue algo increíble. Hemos tenido la oportunidad de crear una relación más cercana y un ambiente de trabajo mucho más seguro para nuestra empleada doméstica. Ahora, tanto ella como nosotros nos sentimos protegidos ante cualquier imprevisto. ¡Gracias Comunidad 4uno!”</i></p>
-                        <h6>Paulina Rodríguez <br> Embajadora Social - Univ. Anáhuac Norte</h6>
-                    </div>
-                    <div class="carousel-item green white-text" href="#three!">
-                        <p class="white-text">This is your third panel</p>
-                    </div>
-                    <div class="carousel-item blue white-text" href="#four!">
-                        <p class="white-text">This is your fourth panel</p>
-                    </div>
+                <div class="col s12 m6 offset-m3">
+                    <blockquote>
+                        “Adquirir esta membresía fue algo increíble. Hemos tenido la oportunidad de crear una relación más cercana y un ambiente de trabajo mucho más seguro para nuestra empleada doméstica. Ahora, tanto ella como nosotros nos sentimos protegidos ante cualquier imprevisto. ¡Gracias Comunidad 4uno!”
+                    </blockquote>
+                    <h6>Paulina Rodríguez <br> Embajadora Social - Univ. Anáhuac Norte</h6>
                 </div>
             </div>
             <div class="row center-align">
@@ -179,44 +170,48 @@
                     <h4>Ofrecemos diferentes medios de pago</h4>
                 </div>
                 <div class="col s6 m2 offset-m2">
-                    <img src="" alt="">
+                    <img class="responsive-img" src="assets/img/MasterCard-logo.png" alt="MasterCard">
                 </div>
                 <div class="col s6 m2">
-                    <img src="" alt="">
+                    <img class="responsive-img" src="assets/img/VISA-logo.png" alt="Visa">
                 </div>
                 <div class="col s6 m2">
-                    <img src="" alt="">
+                    <img class="responsive-img" src="assets/img/7-eleven.png" alt="SevenEleven">
                 </div>
                 <div class="col s6 m2">
-                    <img src="" alt="">
+                    <img class="responsive-img" src="assets/img/Farmacias_del_Ahorro.png" alt="Farmacias del Ahorro">
                 </div>
             </div>
         </section>
+
         <footer class="grey darken-4 white-text">
             <div class="row">
                 <div class="col s12 m8">
                     <h5>Sobre la COMUNIDAD 4UNO</h5>
                     <p>La COMUNIDAD 4UNO es una institución social que tiene la misión de ayudar y proteger a empleados domésticos y a sus patrones.</p>
                     <hr>
-                    <a class="white-text"><img src="assets/img/icono.png" alt="4uno">Comunidad4uno.org</a>
+                    <div class="valign-wrapper">
+                        <img src="assets/img/icono.png" alt="4uno">
+                        <a class="white-text">Comunidad4uno.org</a>
+                    </div>
                 </div>
-                <div class="col s6 m4">
+                <div class="col s12 m4">
                     <div class="row">
                         <div class="col s12">
                             <h5>Contáctanos</h5>
-                            <h3><b><i></i>(55)7324 5988</b></h3>
-                            <a href=""><i></i>contacto@4uno.org</a>
+                            <a class="whatsapp white-text"><b><i class="fa fa-whatsapp" aria-hidden="true"></i> (55)7324 5988</b></a><br>
+                            <a class="white-text"><i class="fa fa-envelope-o" aria-hidden="true"></i> contacto@4uno.org</a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s3">
-                            <a class="btn-floating waves-effect waves-light grey white-text" href="https://www.facebook.com/4uno.org/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a target="_blank"  href="https://www.facebook.com/4uno.org/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </div>
                         <div class="col s3">
-                            <a href="https://twitter.com/4unoorg"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://twitter.com/4unoorg"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                         <div class="col s3">
-                            <a href="https://www.instagram.com/comunidad4uno/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/comunidad4uno/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                     </div>
 
@@ -226,10 +221,11 @@
 
         <!--    Botón flotante   -->
         <div class="fixed-action-btn">
-            <a  class="btn-floating btn-large amber darken-1" href="views/section.html">
+            <a class="btn-floating btn-large amber darken-1" href="views/section.html">
                 <i class="large material-icons">shopping_cart</i>
             </a>
         </div>
+
     </main>
     <script src="static/jquery/dist/jquery.min.js"></script>
     <script src="static/materialize-css/dist/js/materialize.min.js"></script>

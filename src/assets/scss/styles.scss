@@ -39,7 +39,7 @@ body {
         }
     }
     #servicios {
-        padding: 4rem 0;
+        padding: $padd 0;
         background-color: #e7e6e6;
         background-image: url(../img/cajasimple3.png);
         background-size: cover;
@@ -52,10 +52,16 @@ body {
             .col.s6.m3 {
                 padding: $padd;
             }
-            h4{
+            h4 {
                 margin: 3rem 0 0;
             }
         }
     }
+    #pago {
+        padding: $padd;
+        blockquote {
+            border-left: 5px solid #ffb300;
+        }
+    }
+    
 }
-

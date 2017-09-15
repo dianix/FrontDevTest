@@ -3,9 +3,10 @@
 Diana B. Vázquez Camacho
 
 
-No se si aplique, pero una frase que me encanta es un fragmento de un poema de **Rosario Castellanos**
+No se si aplique, pero una frase que me encanta es un fragmento de un poema de **Rosario Castellanos** me hace pensar en las posibilidades infinitas de algo que puede ser tan pequeño.
 
 >  "Una palabra es el sabor que nuestra lengua tiene de lo eterno"
+
 
 ## Instrucciones
 
@@ -21,10 +22,9 @@ No se si aplique, pero una frase que me encanta es un fragmento de un poema de *
 4. **SEO Friendly:** 
    * Crear etiquetas necesarias para un buen **SEO** (hint: use las keywords: crédito,bienestar,seguridad).
 
-**Opcional:** agregar share buttons y etiquetas para redes sociales (hint: [http://ogp.me](http://ogp.me)).
+**Opcional:** agregar share buttons y etiquetas para redes sociales.
 
-**Advanced CSS:** Puede usar frameworks a elección para escribir CSS (hint: materialize, bootstrap)teniendo en cuenta la compatibilidad con distintos browsers (hint opcional: Usar [BrowserStack](http://www.browserstack.com/) para chequear el renderizado en distintos navegadores).
-Opcional: ¿cuál sería tu enfoque en la construcción del diseño?
+**Advanced CSS:** Puede usar frameworks a elección para escribir CSS teniendo en cuenta la compatibilidad con distintos browsers.
 
 
 ## Se darán  puntos extras si utilizas
