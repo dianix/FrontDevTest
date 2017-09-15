@@ -25,6 +25,7 @@ body {
         padding: $padd;
     }
     #beneficios {
+        padding: 4rem 0 0;
         h3 {
             @include titulo (4rem 0);
         }
@@ -40,14 +41,21 @@ body {
     #servicios {
         padding: 4rem 0;
         background-color: #e7e6e6;
-        background-image: url(../img/cajasimple2.png);
+        background-image: url(../img/cajasimple3.png);
         background-size: cover;
         background-position: bottom;
-        h3 {
-            @include titulo (0 0 4rem);
-        }
-        .col.s6.m3{
-            padding: $padd;
+        .row {
+            margin: 2rem 0;
+            h3 {
+                @include titulo (0 0 4rem);
+            }
+            .col.s6.m3 {
+                padding: $padd;
+            }
+            h4{
+                margin: 3rem 0 0;
+            }
         }
     }
 }
+

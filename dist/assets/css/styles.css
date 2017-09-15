@@ -22,6 +22,10 @@ body #inicio {
   padding: 4rem;
 }
 
+body #beneficios {
+  padding: 4rem 0 0;
+}
+
 body #beneficios h3 {
   font-family: 'Merriweather', serif;
   margin: 4rem 0;
@@ -38,16 +42,24 @@ body #beneficios .col.s12.m4 .card .card-reveal {
 body #servicios {
   padding: 4rem 0;
   background-color: #e7e6e6;
-  background-image: url(../img/cajasimple2.png);
+  background-image: url(../img/cajasimple3.png);
   background-size: cover;
   background-position: bottom;
 }
 
-body #servicios h3 {
+body #servicios .row {
+  margin: 2rem 0;
+}
+
+body #servicios .row h3 {
   font-family: 'Merriweather', serif;
   margin: 0 0 4rem;
 }
 
-body #servicios .col.s6.m3 {
+body #servicios .row .col.s6.m3 {
   padding: 4rem;
+}
+
+body #servicios .row h4 {
+  margin: 3rem 0 0;
 }

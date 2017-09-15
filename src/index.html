@@ -12,19 +12,22 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://use.fontawesome.com/e7261129df.js"></script>
 </head>
 
 <body>
     <header class="navbar-fixed">
         <nav class="nav-extended white">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo valign-wrapper"><img class="responsive-img" src="assets/img/logo.png" alt="4uno-logo"></a>
+                <a href="#inicio" class="brand-logo valign-wrapper"><img class="responsive-img" src="assets/img/logo.png" alt="4uno-logo"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse purple-text"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="grey-text text-darken-3" href="#">Iniciar sesión</a></li>
-                    <li><a class="grey-text text-darken-3" href="#">Descripción del producto</a></li>
-                    <li><a class="grey-text text-darken-3" href="#">Contacto</a></li>
-                    <li><a class="waves-effect waves-light btn purple" href="#">adquirir</a></li>
+                    <li><a class="grey-text text-darken-3" href="#inicio">Inicio</a></li>
+                    <li><a class="grey-text text-darken-3" href="#beneficios">Beneficios del producto</a></li>
+                    <li><a class="grey-text text-darken-3" href="#servicios">Servicios</a></li>
+                    <li><a class="grey-text text-darken-3" href="#testimonios">Testimonios</a></li>
+                    <li><a class="grey-text text-darken-3">Iniciar sesión</a></li>
+                    <li><a class="waves-effect waves-light btn purple" href="views/section.html" ;>adquirir</a></li>
                 </ul>
 
                 <!-- sidenav -->
@@ -55,15 +58,17 @@
                 <div class="col s12 m6 offset-m3">
                     <h3>Facilitamos tu vida y la de tus empleados en un click.</h3>
                     <h4>Somos una plataforma que brinda servicios para facilitar y proteger la relación con tu empleado del hogar.</h4>
-                    <button type="button" class="t btn purple">únete</button>
+                    <button type="button" class="t btn amber">únete</button>
                 </div>
             </div>
         </section>
 
         <section id="beneficios" class="center-align">
             <div class="row">
-                <h3 class="purple-text">Beneficios</h3>
-                <img class="responsive-img" src="assets/img/imagen1.png" alt="Beneficios">
+                <div class="col s12">
+                    <h3 class="purple-text">Beneficios</h3>
+                    <img class="responsive-img" src="assets/img/imagen1.png" alt="Beneficios">
+                </div>
             </div>
             <div class="row">
                 <div class="col s12 m4">
@@ -123,25 +128,108 @@
 
         <section id="servicios" class="center-align ">
             <div class="row">
-                <h3 class="purple-text">Servicios</h3>
-                <img class="responsive-img" src="assets/img/imagen2.png" alt="Servicios">
+                <div class="col s12 m8 offset-m2">
+                    <h3 class="purple-text">Servicios</h3>
+                    <img class="responsive-img" src="assets/img/imagen2.png" alt="Servicios">
+                </div>
             </div>
             <div class="row">
                 <div class="col s6 m2 offset-m2">
                     <a href="#modal"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                    <a href="#"><img class="responsive-img" src="assets/img/Asesor%C3%ADaLegal_03.png" alt="Asesoría legal"></a>
+                </div>
+                <div class="col m4 hide-on-small-only">
+                    <img class="responsive-img" src="assets/img/lineas.png" alt="flechas">
                 </div>
                 <div class="col s6 m2">
-                    <a href="#"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
-                </div>
-                <div class="col s6 m2">
-                    <a href="#"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
-                </div>
-                <div class="col s6 m2">
-                    <a href="#"><img class="responsive-img" src="assets/img/Pago-Electr%C3%B3nico_03.png" alt="Pago-electrónico"></a>
+                    <a href="#"><img class="responsive-img" src="assets/img/Ahorro_03.png" alt="Ahorro"></a>
+                    <a href="#"><img class="responsive-img" src="assets/img/Bienestar_03.png" alt="Bienestar"></a>
                 </div>
             </div>
-
+            <div class="row">
+                <div class="col s12 m6 offset-m3">
+                    <h4><b>Descarga más info con las condiciones y detalles generales del paquete <a target="_blank" class="amber-text" href="assets/docs/CVDianaVazquez2017.pdf">AQUí</a></b></h4>
+                </div>
+            </div>
         </section>
+        <section id="testimonios" class="">
+            <div class="row">
+                <div class="carousel carousel-slider center" data-indicators="true">
+                    <div class="carousel-fixed-item center">
+                        <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                    </div>
+                    <div class="carousel-item red white-text" href="#one!">
+                        <p class="white-text"><i>“Adquirir esta membresía fue algo increíble. Hemos tenido la oportunidad de crear una relación más cercana y un ambiente de trabajo mucho más seguro para nuestra empleada doméstica. Ahora, tanto ella como nosotros nos sentimos protegidos ante cualquier imprevisto. ¡Gracias Comunidad 4uno!”</i></p>
+                        <h6>Paulina Rodríguez <br> Embajadora Social - Univ. Anáhuac Norte</h6>
+                    </div>
+                    <div class="carousel-item amber white-text" href="#two!">
+                        <p class="white-text"><i>“Adquirir esta membresía fue algo increíble. Hemos tenido la oportunidad de crear una relación más cercana y un ambiente de trabajo mucho más seguro para nuestra empleada doméstica. Ahora, tanto ella como nosotros nos sentimos protegidos ante cualquier imprevisto. ¡Gracias Comunidad 4uno!”</i></p>
+                        <h6>Paulina Rodríguez <br> Embajadora Social - Univ. Anáhuac Norte</h6>
+                    </div>
+                    <div class="carousel-item green white-text" href="#three!">
+                        <p class="white-text">This is your third panel</p>
+                    </div>
+                    <div class="carousel-item blue white-text" href="#four!">
+                        <p class="white-text">This is your fourth panel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row center-align">
+                <div class="col s12">
+                    <h4>Ofrecemos diferentes medios de pago</h4>
+                </div>
+                <div class="col s6 m2 offset-m2">
+                    <img src="" alt="">
+                </div>
+                <div class="col s6 m2">
+                    <img src="" alt="">
+                </div>
+                <div class="col s6 m2">
+                    <img src="" alt="">
+                </div>
+                <div class="col s6 m2">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="grey darken-4 white-text">
+            <div class="row">
+                <div class="col s12 m8">
+                    <h5>Sobre la COMUNIDAD 4UNO</h5>
+                    <p>La COMUNIDAD 4UNO es una institución social que tiene la misión de ayudar y proteger a empleados domésticos y a sus patrones.</p>
+                    <hr>
+                    <a class="white-text"><img src="assets/img/icono.png" alt="4uno">Comunidad4uno.org</a>
+                </div>
+                <div class="col s6 m4">
+                    <div class="row">
+                        <div class="col s12">
+                            <h5>Contáctanos</h5>
+                            <h3><b><i></i>(55)7324 5988</b></h3>
+                            <a href=""><i></i>contacto@4uno.org</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s3">
+                            <a class="btn-floating waves-effect waves-light grey white-text" href="https://www.facebook.com/4uno.org/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col s3">
+                            <a href="https://twitter.com/4unoorg"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col s3">
+                            <a href="https://www.instagram.com/comunidad4uno/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!--    Botón flotante   -->
+        <div class="fixed-action-btn">
+            <a  class="btn-floating btn-large amber darken-1" href="views/section.html">
+                <i class="large material-icons">shopping_cart</i>
+            </a>
+        </div>
     </main>
     <script src="static/jquery/dist/jquery.min.js"></script>
     <script src="static/materialize-css/dist/js/materialize.min.js"></script>
