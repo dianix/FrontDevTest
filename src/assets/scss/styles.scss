@@ -65,5 +65,16 @@ body {
     }
     footer {
         padding: $padd 0;
+        hr {
+            border: 2px solid #5d00a2;
+            margin: 3rem 0;
+        }
+        a.whatsapp {
+            font-size: 2rem;
+            font-family: sans-serif;
+        }
+        a.btn-floating.grey{
+            margin-top: 2rem;
+        }
     }
 }

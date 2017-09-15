@@ -75,3 +75,17 @@ body #pago blockquote {
 body footer {
   padding: 4rem 0;
 }
+
+body footer hr {
+  border: 2px solid #5d00a2;
+  margin: 3rem 0;
+}
+
+body footer a.whatsapp {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+body footer a.btn-floating.grey {
+  margin-top: 2rem;
+}
