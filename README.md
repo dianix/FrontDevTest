@@ -26,11 +26,3 @@ No se si aplique, pero una frase que me encanta es un fragmento de un poema de *
 
 **Advanced CSS:** Puede usar frameworks a elección para escribir CSS teniendo en cuenta la compatibilidad con distintos browsers.
 
-
-## Se darán  puntos extras si utilizas
-
-- Utilizas sass
-- Utilizas gulp
-- Comentas tu código explicando cómo realizaste x función  
-- Si escribes una funcion javascript comentada que identifique si una palabra es anagrama o no lo es.
-
